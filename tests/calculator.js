@@ -32,6 +32,6 @@ describe("Demo Calculator Tests", function () {
 
     homepage.verifyResult("234");
 
-    browser.sleep(3000);
+    browser.sleep(2000);
   });
 });
