@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="1" tests="2" time="6.349">
- <testsuite name="Demo Calculator Tests" timestamp="2020-11-24T10:13:17" hostname="localhost" time="6.349" errors="0" tests="2" skipped="0" disabled="0" failures="1">
-  <testcase classname="Demo Calculator Tests" name="Additon test" time="6.057" />
-  <testcase classname="Demo Calculator Tests" name="Subtraction test" time="0.288">
-   <failure type="exception" message="Failed: homepage.goButton1 is not a function"><![CDATA[TypeError: homepage.goButton1 is not a function
-    at UserContext.<anonymous> (C:\AutomationProjects\ProtractorDemo2\tests\calculator.js:31:14)
-    at C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
-    at new ManagedPromise (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
-    at ControlFlow.promise (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
-    at schedulerExecute (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
-    at TaskQueue.execute_ (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-From: Task: Run it("Subtraction test") in control flow
-    at UserContext.<anonymous> (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
-    at attempt (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
-    at QueueRunner.run (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
-    at QueueRunner.execute (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
-    at Spec.queueRunnerFactory (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
-    at Spec.execute (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
-    at UserContext.fn (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
-    at attempt (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
-    at QueueRunner.run (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
-    at runNext (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
-From asynchronous test: 
-Error
-    at Suite.<anonymous> (C:\AutomationProjects\ProtractorDemo2\tests\calculator.js:24:3)
-    at addSpecsToSuite (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
-    at Env.describe (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
-    at describe (C:\Users\Ngoc Anh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
-    at Object.<anonymous> (C:\AutomationProjects\ProtractorDemo2\tests\calculator.js:3:1)
-    at Module._compile (internal/modules/cjs/loader.js:1063:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
-    at Module.load (internal/modules/cjs/loader.js:928:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:769:14)]]>
-   </failure>
-  </testcase>
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="7.226">
+ <testsuite name="Demo Calculator Tests" timestamp="2020-11-25T14:13:19" hostname="localhost" time="7.226" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Demo Calculator Tests" name="Additon test" time="7.223" />
  </testsuite>
 </testsuites>
