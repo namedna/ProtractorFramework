@@ -20,18 +20,4 @@ describe("Demo Calculator Tests", function () {
 
     browser.sleep(3000);
   });
-
-  it("Subtraction test", function () {
-    homepage.get("https://juliemr.github.io/protractor-demo/");
-
-    homepage.enterFirstNumber("223");
-
-    homepage.enterSecondNumber("11");
-
-    homepage.goButton1();
-
-    homepage.verifyResult("234");
-
-    browser.sleep(2000);
-  });
 });
